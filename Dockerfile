@@ -10,5 +10,5 @@ COPY flask_program.py /kv/flask_program.py
 WORKDIR /kv
 
 
-EXPOSE 8000
-CMD [“python3 flask_program.py”]
+EXPOSE 5000
+CMD [“python3”]

@@ -1,5 +1,6 @@
 {
   "id": "/flask-app",
+  "cmd":"python3 flask_program.py",
   "container": {
     "type": "DOCKER",
     "docker": {
@@ -8,7 +9,7 @@
     "portMappings": [
       {
         "containerPort": 4000,
-        "hostPort": 0,
+        "hostPort":5000,
         "protocol": "tcp",
         "name": "jenkins-deployed-app"
       }
