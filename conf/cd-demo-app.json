@@ -1,6 +1,6 @@
 {
   "id": "/flask-app",
-  "cmd": "python flask-program.py",
+  "cmd": "",
   "container": {
     "type": "DOCKER",
     "docker": {
