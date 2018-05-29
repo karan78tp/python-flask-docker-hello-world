@@ -8,7 +8,7 @@ RUN virtualenv -p python3 /opt/venv-hellodjango
 ADD requirements.txt /opt/requirements.txt
 RUN /opt/venv-hellodjango/bin/pip install -r /opt/requirements.txt
 
-ADD app.py /opt/hellodjango
+ADD flask_program.py /opt/hellodjango
 WORKDIR /opt/hellodjango/
 
 EXPOSE 8000
