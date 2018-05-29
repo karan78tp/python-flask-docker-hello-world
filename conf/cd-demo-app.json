@@ -4,7 +4,7 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "mesosphere/cd-demo:latest"
+      "image": "mesosphere/shekhargulati/python-flask-docker-hello-world:latest"
     },
     "portMappings": [
       {
