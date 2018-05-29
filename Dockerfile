@@ -11,3 +11,4 @@ WORKDIR /kv
 
 
 EXPOSE 8000
+CMD [“python3 flask_program.py”]
