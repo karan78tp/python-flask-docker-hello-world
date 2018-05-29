@@ -6,7 +6,8 @@ RUN apt-get -y update && apt-get install -y python3-virtualenv virtualenv
 # Install requirements
 
 
-ADD flask_program.py /kv/flask_program.py
-WORKDIR /kv/
+COPY . /kv
+WORKDIR /kv
+
 
 EXPOSE 8000
