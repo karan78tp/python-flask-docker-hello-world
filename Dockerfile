@@ -1,14 +1,3 @@
-FROM ubuntu:16.04
-
-
-RUN apt-get -y update && apt-get install -y python3-virtualenv virtualenv
-
-# Install requirements
-
-
-COPY flask_program.py /flask_program.py
-WORKDIR /
-
-
-EXPOSE 5000
+FROM python:2.7
+ADD site /srv/rest_api
 
