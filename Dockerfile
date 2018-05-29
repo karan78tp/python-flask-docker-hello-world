@@ -1,3 +1,3 @@
-FROM python:2.7
+ADD /code/ app.py
 RUN pip install -r requirements.txt
 
