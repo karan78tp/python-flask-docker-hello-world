@@ -1,3 +1,3 @@
-FROM mesosphere/dcos-101
+FROM python/python:3
 ADD site /srv/rest_api
 
